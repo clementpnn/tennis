@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenis</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+        <form action="" id="form" class="form">
+          <span>Joueur 1</span>
+          <input type="text" id="user1"/>
+          <span>Niveau (1 à 10)</span>
+          <input type="text" id="lvlUser1"/>
+          <span>Joueur 2</span>
+          <input type="text" id="user2"/>
+          <span>Niveau (1 à 10)</span>
+          <input type="text" id="lvlUser2"/>
+          <button>Test</button>
+        </form>
+        <form action="assets/pages/count.php" method="post" id="post"></form>
+        <button onClick="getValue()">recharger les points</button>
+        <div id="points"></div>
+    
+<script src="assets/js/script.js"></script>
+</body>
+</html>

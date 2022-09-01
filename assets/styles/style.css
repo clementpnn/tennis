@@ -1,0 +1,13 @@
+.form.active {
+    display: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
